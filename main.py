@@ -43,3 +43,6 @@ PIXEL_PARAMS = {
 
 response = requests.post(url=END_POINT_PIXEL, json=PIXEL_PARAMS, headers=headers)
 print(response)
+
+# We can also do put (to update) and delete (to delete) requests
+# same logic as above, via request.put() and requests.delete()
